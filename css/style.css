@@ -2,3 +2,64 @@ body{
     margin: 0;
     background-color: whitesmoke;
 }
+
+.topnavbar{
+    overflow: hidden;
+    background-color: black;
+    border: 5px solid #353b48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnavbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topnavbar a:hover{
+    background-color: #dcdde1;
+    color: black;
+}
+
+.topnavbar a.active{
+    background-color: limegreen;
+    color: white;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f7b731;
+    text-align: center;
+    font-size: 40px;
+}
+
+.spacing{
+    margin-top: 100px;
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.line-height{
+    line-height: 1.4;
+}
+
+#lista{
+    margin-left: 550px;
+    font-size: 30px;
+}
