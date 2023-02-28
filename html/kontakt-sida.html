@@ -9,10 +9,23 @@
   </head>
   <body>
     <header>
-    </header>
+        <!--Navbaren ska vara här med länkar till andra sidorna-->
+        <div class="topnavbar">
+          <a href="index.html">Home</a>
+          <a href="inspiration-sida.html">Inspiration</a>
+          <a class="active" href="#kontakt-sida">Kontakt</a>
+        </div>
+      </header>
     <main>
+        <h3 class="class">Kontakta mig</h3>
         <form>
-            <label for="name"></label>
+            <label for="namn" id="namn">Ange namn:</label><br>
+            <input type="text" id="namn"><br>
+            <label for="e-mail" id="e-mail">Ange E-Mail:</label><br>
+            <input type="text" id="e-mail"><br>
+            <label for="anledning" id="anledning">Vad vill du veta?</label><br>
+            <input type="text" id="anledning"><br>
+            <input type="submit" id="knapp" value="Skicka in">
         </form>
     </main>
     <footer>

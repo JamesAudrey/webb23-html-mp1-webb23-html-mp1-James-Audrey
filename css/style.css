@@ -22,7 +22,7 @@ body{
 }
 
 .topnavbar a:hover{
-    background-color: #dcdde1;
+    background-color: white;
     color: black;
 }
 
@@ -53,13 +53,54 @@ h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     text-align: center;
+    color: turquoise;
 }
 
 .line-height{
     line-height: 1.4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #lista{
     margin-left: 550px;
     font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+form{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-right: 590px;
+    padding-left: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+#knapp{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lista a{
+    color: blue;
+}
+
+#lista a:hover{
+    color: black;
+}
+
+#picture1{
+    border: 10px solid black;
+    border-radius: 5px;
+    margin-left: 560px;
+    margin-bottom: 20px;
 }
